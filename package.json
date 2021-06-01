@@ -1,6 +1,6 @@
 {
   "name": "one-more-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "自定义常用函数库",
   "main": "./dist/more-utils.js",
   "scripts": {
