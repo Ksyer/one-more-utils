@@ -1,8 +1,9 @@
 {
   "name": "ht-m-utils",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "来自真实的开发场景所需的函数库",
-  "main": "./dist/ht-m-utils.min.js",
+  "main": "dist/ht-m-utils.min.js",
+  "module": "src/index.js",
   "scripts": {
     "build:watch": "webpack --watch --mode=development",
     "build:dev": "webpack --mode=development",
@@ -11,9 +12,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "utils",
-    "array",
-    "function"
+    "utils"
   ],
   "author": "huatree",
   "license": "MIT",

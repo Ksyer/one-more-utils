@@ -6,6 +6,8 @@ const config = {
     output: {
         path: resolve(__dirname, 'dist'),
         filename: 'ht-m-utils.js',
+        // docs: https://webpack.docschina.org/configuration/output/#outputglobalobject
+        globalObject: 'this',
         library: 'htMUtils',
         libraryTarget: 'umd'
     },
