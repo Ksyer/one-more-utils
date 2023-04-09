@@ -1,36 +1,26 @@
-# one-more-util
+# ht-m-utils
 
-**说明：**
-
-开发中的一些自定义通用函数库。
-
-## 功能描述
-
-**函数相关：**
-
-- call()& apply()& bind()
-
-**数组相关：**
-
-- chunk
+来自真实的开发场景，从工作及学习中积累起来的函数库。
 
 ## 用法
 
 ```bash
 # npm 安装方式
-npm i one-more-util
+npm i ht-m-utils
 
 # yarn 安装方式
-yarn add one-more-util
+yarn add ht-m-utils
 
+# pnpm 安装方式
+pnpm i ht-m-utils
 ```
 
 JS 引入方式
 
 ```html
-<script src="../../dist/one-more-util.min.js"></script>
+<script src="../../dist/ht-m-utils.min.js"></script>
 <script>
-  console.log(omUtils) // 直接 omUtils. 使用
+  console.log(htMUtils) // 直接 htMUtils. 使用
 </script>
 ```
 

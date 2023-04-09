@@ -7,7 +7,7 @@
     <title>>函数的call/apply/bind()</title>
   </head>
   <body>
-    <script src="../../dist/one-more-util.min.js"></script>
+    <script src="../../dist/ht-m-utils.min.js"></script>
     <script>
       var m = 11;
       function f(a, b) {
@@ -35,18 +35,18 @@
       /* ******************************************************** */
 
       /* 测试自定义call() */
-      // console.log(omUtils.call(f, obj, 1, 2, 3))
-      // console.log(omUtils.call(f, undefined, 1, 2, 3))
+      // console.log(htMUtils.call(f, obj, 1, 2, 3))
+      // console.log(htMUtils.call(f, undefined, 1, 2, 3))
 
       /* 测试自定义apply() */
-      // console.log(omUtils.apply(f, obj, [1, 2, 3]))
-      // console.log(omUtils.apply(f, undefined, [1, 2, 3]))
+      // console.log(htMUtils.apply(f, obj, [1, 2, 3]))
+      // console.log(htMUtils.apply(f, undefined, [1, 2, 3]))
 
       /* 测试自定义bind() */
-      console.log(omUtils.bind(f, obj)(1, 2));
-      console.log(omUtils.bind(f, obj, 3)(1, 2));
-      console.log(omUtils.bind(f, obj, 4)(1, 2));
-      console.log(omUtils.bind(f, undefined, 4)(1, 2));
+      console.log(htMUtils.bind(f, obj)(1, 2));
+      console.log(htMUtils.bind(f, obj, 3)(1, 2));
+      console.log(htMUtils.bind(f, obj, 4)(1, 2));
+      console.log(htMUtils.bind(f, undefined, 4)(1, 2));
     </script>
   </body>
 </html>
