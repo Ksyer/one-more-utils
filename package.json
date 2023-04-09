@@ -1,6 +1,6 @@
 {
   "name": "ht-m-utils",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "来自真实的开发场景所需的函数库",
   "main": "./dist/ht-m-utils.min.js",
   "scripts": {
